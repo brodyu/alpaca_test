@@ -16,11 +16,11 @@ class MeanReversionAlgo :
         self.tick_size = 5
         self.tick_index = 0
 
-        # The percentage of our buying power that we will allocate to a new position\
+        # The percentage of our buying power that we will allocate to a new position
         # Needs to be updated with appropriate model
         self.base_bet = 10
 
-        # These variables track the information about the current streak
+        # These variables track the information about the cur`rent streak
         self.streak_count = 0
         self.streak_start = 0
         self.streak_increasing = True
